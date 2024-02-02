@@ -52,14 +52,14 @@ const ScorePanel = props => {
                 }}>
                     <img style={{width: '100px', height: '70px'}} src={Logo} alt=''></img>
 
-                    <DivScore style={{padding: '7px 15px 7px 15px'}}>
+                    <DivScore style={{padding: '10px 15px 10px 15px'}}>
                         <p style={{
                             color: '#45569a', 
-                            fontSize: '14px',
+                            fontSize: '17px',
                             fontWeight: 'bold',
                         }}>SCORE</p>
 
-                        <h1 style={{color: '#575369', fontSize: '27px'}}>{props.score}</h1>
+                        <h1 style={{color: '#575369', fontSize: '30px'}}>{props.score}</h1>
                     </DivScore>
                 </Div>
             }
